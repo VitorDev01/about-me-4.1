@@ -12,6 +12,7 @@
            radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
           
            color: #6cacc5;
+           
         }    
         body {
 	        color: #6cacc5;
@@ -35,7 +36,8 @@
         }
         
         #logo {
-          padding-top: 15px;
+          margin-top:5px;
+          font-weight: bold; /*atributo que engraça as letras*/
           font-weight: bold; /*atributo que engraça as letras*/
           font: 300 35px/1.6 "Source Sans Pro",sans-serif;
         }
@@ -52,13 +54,15 @@
         }
         #menu {
           display: flex;
+          height: 8px;
           list-style: none;
-          gap: .5rem;/*Coloca um espaçamento e separa os itens*/
+          gap: .7rem;/*Coloca um espaçamento e separa os itens*/
           
         }
         #menu a {
           display: block;
-          padding: 5rem;
+          padding-right: 70px;
+    
         }
         
         /*Menu para Versão Mobile*/
@@ -87,8 +91,11 @@
             margin: 0 1rem;
             border-bottom: 2px solid white ;
           }
+          /*botão hamburguer aqui*/
           #btn-mobile {
+            height: 40px;
             outline:none;
+            margin-top:15px;
             display: flex;
             padding: .5rem 1rem;
             font-size: 1rem;
@@ -107,7 +114,6 @@
           #pao::after {
             content: '';
             display: block;
-            
             width: 30px;
             height: 3px;
             background: white;
@@ -152,13 +158,13 @@
         }
   
        p {
-         
+          
           text-align: justify;
           margin-left:  20px;
           margin-right:  20px;
           padding: 0 auto;
           color:#fff;
-          font: 300 20px "Source Sans Pro",sans-serif;
+          font: 300 20px/1.6 "Source Sans Pro",sans-serif;
           
        }
        h2 {
@@ -250,17 +256,19 @@
          font-size: 10px;
          font-family: serif;
        }
-    /*   #borda {
-          display:block;
-          margin:auto;
-          height: 95px;
-          width:360px;
-          border-width:2px;
+       #borda {
+          height: 300px;
+          width: 300px;
+          align-items: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border-width:4px;
           border-style:solid;
           border-color:#fff;
-          border-radius:15px;
+          border-radius:50%;
           
-       }*/
+       }
        iframe {
          display: block;
          margin-left: auto;
@@ -282,8 +290,9 @@
   </head>
     <body>
          <header id="header"><!--tag do cabeçalho-->
+          
            <a id="logo"  href="https://github.com/VitorDev01">Vitor Oliveira</a>
-        
+           
            <nav id="nav">
              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="pao"></span>
              </button>
@@ -302,16 +311,18 @@
            </nav> 
         </header>
          <br><br>
-         
+         <div id="borda">
          <img id="img" src="vitor.png">
+         </div>
+         
          <h2>♙</h2>
       
-         <p>21 anos, Barramansanse, Desenvolvedor Front End, Conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do Raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês. <br><br>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
+         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
         
          <br><br>
-         <div id=borda>
-         <h2>♖ Desenvolvedor Front End ♖</h2>
-         </div>
+        
+         <h2>Desenvolvedor Front End</h2>
+         
          <br>
          <img id="imgdev" src="dev.jpg">
          
@@ -319,7 +330,7 @@
          <br>
         <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da World Wide Web.A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
          </p>
-        <br><br>
+        <br>
      
        <!--comandos Javascript-->
        <script>
