@@ -5,74 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <title></title>
     <style> 
-       
+    
         html {
            background: #100a1c;
            radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
            radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
-          
-           color: #6cacc5;
-           
         }    
+        
         body {
-	        color: #6cacc5;
+          height: 100vh;
           font: 300 18px/1.6 "Source Sans Pro",sans-serif;
-          margin: 0 ;
-          padding: 0;
           text-align: center;
-	     
 	      }
+	   /*Menu Desktop*/
+	    @media (max-width: 1281px) {
+      
         body ul {
-          margin: 0 auto;
+          margin-right: 0 auto;
           padding: 0 auto;
         }
+        
         a {
           color: white;
           text-decoration: none;
-          font: 300 18px/1.6 "Source Sans Pro",sans-serif;
+          font: 370 18px/1.6 "Source Sans Pro",sans-serif;
         }
+        
         a:hover {
-          background:rgba(0, 0, 0, .05);
+          background:rgba(0, 0, 0, .09);
         }
         
         #logo {
-          margin-top:5px;
-          font-weight: bold; /*atributo que engraça as letras*/
-          font-weight: bold; /*atributo que engraça as letras*/
-          font: 300 35px/1.6 "Source Sans Pro",sans-serif;
+          margin-top:20px;
+          font-weight: bold;
+          font: 300 30px/1.6 "Source Sans Pro",sans-serif;
         }
         
         #header {
+          display: flex;
+          align-items: center;
           box-sizing: border-box;
           height: 70px;
           padding: 1rem; /*para distancear o conteúdo da margem esquerda da pagina*/
-          display: flex;
-          align-items: center;
           justify-content: space-between;
-          background: none;
-
+          width: 100%;
+          max-width: 980px;
         }
+        /*escondendo botão*/
+        #btn-mobile {
+          background: #100a1c;
+           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+          outline: none;
+          border:none;
+          
+        }
+        
         #menu {
           display: flex;
           height: 8px;
+          width: 90%;
+          max-width: 980px;
           list-style: none;
           gap: .7rem;/*Coloca um espaçamento e separa os itens*/
           
         }
         #menu a {
+          width: 100%;
+          max-width: 980px;
           display: block;
           padding-right: 70px;
     
         }
-        
+        p {
+          text-align: justify;
+          margin-left:  20px;
+          margin-right:  20px;
+          padding: 0 auto;
+          color:#fff;
+          font: 300 100%/1.6 "Source Sans Pro",sans-serif;
+          
+       }
+	
+	  
+	    }  
         /*Menu para Versão Mobile*/
         @media (max-width: 600px) {
+          
+          #logo {
+            margin-top:5px;
+            font-weight: bold;
+            font: 300 35px/1.6 "Source Sans Pro",sans-serif;
+          }
 
           #menu {
             display: block;
             position: absolute;
             width: 100%;
-            top: 70px;
+            max-width: 980px;
+            top: 75px;
             right: 0px;
             background-color:#8A2BE2;
             transition: .6s;
@@ -90,9 +121,12 @@
             padding: 1rem 0;
             margin: 0 1rem;
             border-bottom: 2px solid white ;
+            
           }
           /*botão hamburguer aqui*/
           #btn-mobile {
+            width: 100%;
+            max-width: 980px;
             height: 40px;
             outline:none;
             margin-top:15px;
@@ -145,8 +179,8 @@
              top: -8px;
           }  
         }
+        
         #img {
-          
           height: 300px;
           width: 300px;
           align-items: center;
@@ -154,19 +188,17 @@
           margin-left: auto;
           margin-right: auto;
           border-radius: 20px;
-          
         }
   
-       p {
-          
+        p {
           text-align: justify;
           margin-left:  20px;
           margin-right:  20px;
           padding: 0 auto;
           color:#fff;
           font: 300 20px/1.6 "Source Sans Pro",sans-serif;
-          
-       }
+        }
+       
        h2 {
          
          align-items: center;
@@ -174,6 +206,7 @@
          color:#fff;
          font: 300 28px/1.6 "Source Sans Pro",sans-serif;
        }
+       
        p2 {
          
           text-align: center;
@@ -181,6 +214,7 @@
           font: 300 18px/1.6 "Source Sans Pro",sans-serif;
           font: 300 18px/1.6 "Source Sans Pro",sans-serif;
        } 
+       
        p4 {
           color: red;
           font: 300 20px/1.6 "Source Sans Pro",sans-serif;
@@ -188,8 +222,9 @@
           padding: 0;
           text-align: center;
        }
+       
        p5 {
-          color: black;
+          color: #fff;
           font: 300 20px/1.6 "Source Sans Pro",sans-serif;
           margin: 0 ;
           padding: 0;
@@ -269,12 +304,7 @@
           border-radius:50%;
           
        }
-       iframe {
-         display: block;
-         margin-left: auto;
-         margin-right: auto ; 
-         
-       }
+       
        /*Estilo do Rodapé*/
      /*  footer {
          margin: 0 auto;
@@ -289,24 +319,25 @@
     </style>
   </head>
     <body>
-         <header id="header"><!--tag do cabeçalho-->
+         <header id="header">
           
            <a id="logo"  href="https://github.com/VitorDev01">Vitor Oliveira</a>
            
            <nav id="nav">
+             
              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="pao"></span>
              </button>
-            
-             <ul id="menu" role="menu">
-             <li><a href="https://github.com/VitorDev01">♕ Git Hub</a></li>
-              
-             <li><a href="https://www.instagram.com/vitorkw89/">♘ Instagram </a></li>
-               
-             <li><a href="https://wa.me/5524992717594">♖ Contato</a></li>
-               
-             <li><a href="https://github.com/VitorDev01?tab=repositories">♔ Projetos</a></li>
              
-             <li><a href="https://vitordev01.github.io/404-page/">! <p4>Coca</p4>•<p5>Cola</p5> Gratis !</a></li>
+             <ul id="menu" role="menu">
+             <li><a href="https://github.com/VitorDev01">♔ Git Hub</a></li>
+              
+             <li><a href="https://www.instagram.com/vitorkw89/"> ♛ Instagram </a></li>
+               
+             <li><a href="https://wa.me/5524992717594">♘ Contato</a></li>
+               
+             <li><a href="https://github.com/VitorDev01?tab=repositories">♗ Projetos</a></li>
+             
+             <li><a href="https://vitordev01.github.io/404-page/">♖ Blog (em desenvolvimento)</a></li>
              </ul>
            </nav> 
         </header>
@@ -317,7 +348,7 @@
          
          <h2>♙</h2>
       
-         <p>Tenho 21 anos atualmente estudando para me tornar um Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
+         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
         
          <br><br>
         
@@ -361,5 +392,5 @@
         btnMobile.addEventListener('touchstart' , toggleMenu);
        
        </script>
-    </dody>
+    </body>
 </html>
