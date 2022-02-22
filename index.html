@@ -298,7 +298,7 @@
              </button>
             
              <ul id="menu" role="menu">
-             <li><a href="https://github.com/VitorDev01">♛ Git Hub</a></li>
+             <li><a href="https://github.com/VitorDev01">♕ Git Hub</a></li>
               
              <li><a href="https://www.instagram.com/vitorkw89/">♘ Instagram </a></li>
                
@@ -317,7 +317,7 @@
          
          <h2>♙</h2>
       
-         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
+         <p>Tenho 21 anos atualmente estudando para me tornar um Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
         
          <br><br>
         
