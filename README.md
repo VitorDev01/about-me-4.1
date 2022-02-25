@@ -6,52 +6,128 @@
     <title></title>
     <style> 
     
-        html {
-           background: #100a1c;
-           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
-           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
-        }    
-        
         body {
           height: 100vh;
           font: 300 18px/1.6 "Source Sans Pro",sans-serif;
           text-align: center;
+          background: #100a1c;
+           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
 	      }
-	   /*Menu Desktop*/
-	    @media (max-width: 1281px) {
-      
-        body ul {
-          margin-right: 0 auto;
+	      
+	    /*Menu Para Desktop*/
+	    @media  (max-width: 1281px) {
+        body {
+          margin-left: 2px;
+          margin-right:2px;
+        }
+        header {
+          display: flex;
+          align-items: center;
+          box-sizing: border-box;
+          height: 70px;
+          padding: 1rem;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 980px;
+        }
+        #logo { /*Logo Vitor Oliveira*/
+          margin-top:20px;
+          font-weight: bold;
+          font: 400 30px/1.6 "Source Sans Pro",sans-serif;
+        }
+        #borda { /*Borda na imagem principal*/
+          height: 611px;
+          width: 612px;
+          align-items: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border-width:5px;
+          border-style:solid;
+          border-color:#fff;
+          border-radius:50%;
+          
+        }
+        body ul { /*Lista*/
+          margin: 0 auto;
           padding: 0 auto;
         }
         
-        a {
+        a { /*Links menu*/
           color: white;
           text-decoration: none;
           font: 370 18px/1.6 "Source Sans Pro",sans-serif;
         }
         
-        a:hover {
+        a:hover { /*cor ao tocar nos links*/
           background:rgba(0, 0, 0, .09);
+          background-color: #100a1c;
+           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
         }
         
-        #logo {
-          margin-top:20px;
-          font-weight: bold;
-          font: 300 30px/1.6 "Source Sans Pro",sans-serif;
-        }
         
-        #header {
+        p { /*parafrafos em geral*/
+          text-align: justify;
+          margin-left:  20px;
+          margin-right:  20px;
+          padding: 0 auto;
+          color:#fff;
+          font: 300 200%/1.6 "Source Sans Pro",sans-serif;
+       }
+       
+       iframe  { /*yt videos*/
+          border-radius:10px;
+          width: 960px;
+          height: 415px;
+        }
+        #img-dev2 {
+         display: block;
+         margin-left: 0 auto;
+         margin-right: 0 auto ;
+         width: 450px;
+         height: 100px;
+        
+       }
+       h2 { /*titulo imagem dev*/
+         
+         align-items: center;
+         text-align: center;
+         color:#fff;
+         font: 300 50px/1.6 "Source Sans Pro",sans-serif;
+       }
+       /*estilo da imagem dev */
+       
+       #menu {
           display: flex;
-          align-items: center;
-          box-sizing: border-box;
-          height: 70px;
-          padding: 1rem; /*para distancear o conteúdo da margem esquerda da pagina*/
-          justify-content: space-between;
+          height: 8px;
+          width: 90%;
+          max-width: 980px;
+          list-style: none;
+          gap: .7rem;/*Coloca um espaçamento e separa os itens*/
+        }
+        #dev2 {
+          height: 25px;
+          width: 25px;
+           
+        }
+        #programador {
+          display: block;
+          margin-left: 100px;
+          width: 780px;
+          height: 610px;
+          
+        }
+        
+       #menu a {
           width: 100%;
           max-width: 980px;
+          display: block;
+          padding-right: 70px;
+          font: 400 100%/1.6 "Source Sans Pro",sans-serif;
         }
-        /*escondendo botão*/
+        /*escondendo o botão*/
         #btn-mobile {
           background: #100a1c;
            radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
@@ -60,38 +136,54 @@
           border:none;
           
         }
-        
-        #menu {
-          display: flex;
-          height: 8px;
-          width: 90%;
-          max-width: 980px;
-          list-style: none;
-          gap: .7rem;/*Coloca um espaçamento e separa os itens*/
-          
-        }
-        #menu a {
-          width: 100%;
-          max-width: 980px;
-          display: block;
-          padding-right: 70px;
-    
-        }
-        p {
-          text-align: justify;
-          margin-left:  20px;
-          margin-right:  20px;
-          padding: 0 auto;
-          color:#fff;
-          font: 300 100%/1.6 "Source Sans Pro",sans-serif;
-          
+        .btn-up {
+         color: #100a1c;
+           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+     
        }
-	
-	  
-	    }  
-        /*Menu para Versão Mobile*/
-        @media (max-width: 600px) {
-          
+       #up-up { /*botão cima icone*/
+         height: 50px;
+         width: 50px;
+         float: right;
+         margin-top: 31px;
+         margin-right: 1px;
+      
+       }
+       #git-img { /*github icone*/
+         height: 60px;
+         width: 58px;
+         float: left;
+         margin-top: 27px;
+         margin-right: 1px;
+        
+       }
+       
+       h3 { /*palavras do Rodapé*/
+         font: 400 30px/1.6 "Source Sans Pro",sans-serif;
+         color: black;
+         padding: 0px;
+         margin: 0px;
+         margin-right: 32px;
+         padding-top: 4px;
+         padding-right: 10px;
+       }
+      footer { /*Rodapé*/
+         margin-left: 0;
+         padding-bottom: 20px;
+         background-color: #fff;
+         width: 100%;
+         height: 2%;    
+      } 
+    
+        
+	  }  
+      /*Menu para Versão Mobile*/
+      @media  (max-width: 600px) {
+          body {
+             margin-left: 2px;
+             margin-right:8px;
+          }
           #logo {
             margin-top:5px;
             font-weight: bold;
@@ -102,28 +194,38 @@
             display: block;
             position: absolute;
             width: 100%;
-            max-width: 980px;
-            top: 75px;
+            top: 70px;
             right: 0px;
-            background-color:#8A2BE2;
+            margin-right: 28px;
+            border-radius: 15px;
+            background: linear-gradient(to bottom right, #9F00C5 ,#9370DB);
             transition: .6s;
             z-index: 1000;
-            height: 0px;
             visibility: hidden;
             overflow-y: hidden;
           }
+          
+          #dev2 {
+            height: 150px;
+            width: 130px ;
+            margin-top: 150px;
+            margin-left: 20px;
+          }
+          
+          #menu a {
+            padding: 1rem 0;
+            margin: 0 1rem;
+            border-bottom: 3px solid white ;
+            
+          }
+          
           #nav.active #menu {
             height: calc(100vh - 70px);
             visibility: visible;
             overflow-y: auto;
           }
-          #menu a {
-            padding: 1rem 0;
-            margin: 0 1rem;
-            border-bottom: 2px solid white ;
-            
-          }
-          /*botão hamburguer aqui*/
+          
+          /*botão hamburguer*/
           #btn-mobile {
             width: 100%;
             max-width: 980px;
@@ -167,20 +269,21 @@
             position:relative;
             background:currentColor;
           }
+          
           #nav.active #pao {
-            
             border-top-color: transparent;
           }
+          
           #nav.active #pao::before {
             transform: rotate(135deg);
           }
+          
           #nav.active #pao::after {
              transform: rotate(-135deg);
              top: -8px;
           }  
-        }
         
-        #img {
+        #img-eu {
           height: 300px;
           width: 300px;
           align-items: center;
@@ -189,109 +292,7 @@
           margin-right: auto;
           border-radius: 20px;
         }
-  
-        p {
-          text-align: justify;
-          margin-left:  20px;
-          margin-right:  20px;
-          padding: 0 auto;
-          color:#fff;
-          font: 300 20px/1.6 "Source Sans Pro",sans-serif;
-        }
-       
-       h2 {
-         
-         align-items: center;
-         text-align: center;
-         color:#fff;
-         font: 300 28px/1.6 "Source Sans Pro",sans-serif;
-       }
-       
-       p2 {
-         
-          text-align: center;
-          color:#fff;
-          font: 300 18px/1.6 "Source Sans Pro",sans-serif;
-          font: 300 18px/1.6 "Source Sans Pro",sans-serif;
-       } 
-       
-       p4 {
-          color: red;
-          font: 300 20px/1.6 "Source Sans Pro",sans-serif;
-          margin: 0 ;
-          padding: 0;
-          text-align: center;
-       }
-       
-       p5 {
-          color: #fff;
-          font: 300 20px/1.6 "Source Sans Pro",sans-serif;
-          margin: 0 ;
-          padding: 0;
-          text-align: center;
-       }
-       /*Esitlo da imagem e textos*/
-       .conteiner {
-         display: flex;
-         margin-left: auto;
-         margin-right: auto;
-         justify-content: center;
-         align-items: center;
-         /*conteiner*/
-         position: relative;
-         width: 100px;
-         flex-wrap: wrap;
-         padding: 30px;
-       }
-       .conteiner .card {
-         position: relative;
-         max-width: 350px;
-         height: 430px;
-         background: #fff;
-         margin: 30px 10px;
-         padding: 20px 15px;
-         display: flex;
-         flex-direction: column;
-         transition: 0.3s ease-in-out;
-         border-radius: 10px;
-       }
-       .conteiner .card .imgBx {
-         position: relative;
-         width: 260px;
-         height: 260px;
-         top: -60px;
-         left:20px;
-         box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-         border-radius: 10px;
-       }
-       .conteiner .card .imgBx img {
-         max-width: 100%;
-         border-radius: 10px ;
-       }
-       .container .card. .content {
-         position: center;
-         margin-top: -140px;
-         padding: 10px 15px;
-       }
-       
-       /*estilo da imagem */
-       #imgdev {
-         display: block;
-         margin-left: auto;
-         margin-right: auto ; 
-         width: 300px;
-         height: 300px;
-        
-       }
-       /*Estilo da Letra do Rodapé*/
-       h3 {
-         float: left;
-         text-align:  center;
-         color:#fff;
-         font-size: 10px;
-         font-family: serif;
-       }
-       #borda {
+        #borda {
           height: 300px;
           width: 300px;
           align-items: center;
@@ -303,60 +304,127 @@
           border-color:#fff;
           border-radius:50%;
           
+        }
+        p {
+          text-align: justify;
+          margin-left:  20px;
+          margin-right:  20px;
+          padding: 0 auto;
+          color:#fff;
+          font: 300 20px/1.6 "Source Sans Pro",sans-serif;
+        }
+      
+        iframe { /*yt videos*/
+          border-radius:10px;
+          width: 360px;
+          height: 215px;
+        }
+        
+       h2 {
+         align-items: center;
+         text-align: center;
+         color:#fff;
+         font: 300 28px/1.6 "Source Sans Pro",sans-serif;
+       }
+
+       /*estilo da imagem programador */
+       #programador {
+         display: block;
+         margin-left: 0px ;
+         margin-right: 0 auto ;
+         width: 400px;
+         height: 309px;
+        
+       }
+      
+       /*Estilo do botão up*/
+       .btn-up {
+         color: #100a1c;
+           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+     
+       }
+       #up-up { /*botão cima icone*/
+         height: 30px;
+         width: 30px;
+         float: right;
+         margin-top: 31px;
+         margin-right: 1px;
+      
+       }
+       #git-img { /*github icone*/
+         height: 38px;
+         width: 38px;
+         float: left;
+         margin-top: 27px;
+         margin-right: 1px;
+        
        }
        
-       /*Estilo do Rodapé*/
-     /*  footer {
-         margin: 0 auto;
-         padding: 0 auto;
-         bottom: 0;
+       h3 { /*palavras do Rodapé*/
+         font: 300 19px/1.6 "Source Sans Pro",sans-serif;
+         color: black;
+         padding: 0px;
+         margin: 0px;
+         margin-right: 32px;
+         padding-top: 4px;
+         padding-right: 10px;
+       }
+      footer { /*Rodapé*/
+         margin-left: 0;
+         padding-bottom: 20px;
          background-color: #fff;
          width: 100%;
-         height: 40px;    
-         text-align: center;
-         line-height: 100px;
-      } */
+         height: 2%;    
+      } 
+     }
     </style>
   </head>
     <body>
-         <header id="header">
+         <header>
           
            <a id="logo"  href="https://github.com/VitorDev01">Vitor Oliveira</a>
            
            <nav id="nav">
-             
              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="pao"></span>
              </button>
              
              <ul id="menu" role="menu">
              <li><a href="https://github.com/VitorDev01">♔ Git Hub</a></li>
               
-             <li><a href="https://www.instagram.com/vitorkw89/"> ♛ Instagram </a></li>
+             <li><a href="https://www.instagram.com/vitorkw89/">♛ Instagram </a></li>
                
              <li><a href="https://wa.me/5524992717594">♘ Contato</a></li>
                
              <li><a href="https://github.com/VitorDev01?tab=repositories">♗ Projetos</a></li>
              
              <li><a href="https://vitordev01.github.io/404-page/">♖ Blog (em desenvolvimento)</a></li>
+             <img id="dev2" src="dev2.png">
              </ul>
            </nav> 
         </header>
-         <br><br>
+         <br>
          <div id="borda">
-         <img id="img" src="vitor.png">
+         <img id="img-eu" src="vitor.png">
          </div>
          
          <h2>♙</h2>
       
-         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores <a href="https://www.instagram.com/cursoemvideo/"><b>Gustavo Guanabara</b></a> e <a href="https://www.instagram.com/cfbcursos/?hl=pt"><b>Bruno Campos</b></a>.</p>
+         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
         
+         <br> <!--videos do Yt-->
+          <iframe src="https://www.youtube.com/embed/rsFCVjr5yxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <br><br>
-        
+         <iframe width="360" height="215" src="https://www.youtube.com/embed/lcKo-ycLDNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
+         <br>
+           
          <h2>Desenvolvedor Front End</h2>
          
          <br>
-         <img id="imgdev" src="dev.jpg">
+         <img id="programador" src="dev.png">
          
+         <br>
          <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. 
          <br>
         <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da World Wide Web.A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
@@ -392,5 +460,11 @@
         btnMobile.addEventListener('touchstart' , toggleMenu);
        
        </script>
+       <!--Imagens do Rodapé e botão up-->
+       <a class="btn-up"href="#"> &#9651; <img id="up-up" src="up.png"></a>
+       <a href="https://github.com/VitorDev01"><img id="git-img" src="git.png"></a>
+       <footer>
+       <h3>© 2022 VitorDev01 | GitHub Pages</h3>
+       </footer>
     </body>
 </html>
