@@ -20,6 +20,7 @@
         body {
           margin-left: 2px;
           margin-right:2px;
+          
         }
         header {
           display: flex;
@@ -136,44 +137,22 @@
           border:none;
           
         }
-        .btn-up {
-         color: #100a1c;
-           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
-           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
-     
-       }
-       #up-up { /*botão cima icone*/
-         height: 50px;
-         width: 50px;
-         float: right;
-         margin-top: 31px;
-         margin-right: 1px;
       
-       }
-       #git-img { /*github icone*/
-         height: 60px;
-         width: 58px;
-         float: left;
-         margin-top: 27px;
-         margin-right: 1px;
-        
-       }
-       
        h3 { /*palavras do Rodapé*/
          font: 400 30px/1.6 "Source Sans Pro",sans-serif;
          color: black;
          padding: 0px;
          margin: 0px;
-         margin-right: 32px;
-         padding-top: 4px;
+         padding-left: 5px;
+         padding-top: 10px;
          padding-right: 10px;
        }
       footer { /*Rodapé*/
          margin-left: 0;
          padding-bottom: 20px;
          background-color: #fff;
-         width: 100%;
-         height: 2%;    
+         width: 1050px;
+         height: 50px;    
       } 
     
         
@@ -330,43 +309,19 @@
        /*estilo da imagem programador */
        #programador {
          display: block;
-         margin-left: 0px ;
+         margin-left: 0px;
          margin-right: 0 auto ;
          width: 400px;
          height: 309px;
         
        }
-      
-       /*Estilo do botão up*/
-       .btn-up {
-         color: #100a1c;
-           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
-           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
-     
-       }
-       #up-up { /*botão cima icone*/
-         height: 30px;
-         width: 30px;
-         float: right;
-         margin-top: 31px;
-         margin-right: 1px;
-      
-       }
-       #git-img { /*github icone*/
-         height: 38px;
-         width: 38px;
-         float: left;
-         margin-top: 27px;
-         margin-right: 1px;
-        
-       }
-       
+    
        h3 { /*palavras do Rodapé*/
          font: 300 19px/1.6 "Source Sans Pro",sans-serif;
          color: black;
          padding: 0px;
          margin: 0px;
-         margin-right: 32px;
+         padding-left: 5px;
          padding-top: 4px;
          padding-right: 10px;
        }
@@ -460,9 +415,7 @@
         btnMobile.addEventListener('touchstart' , toggleMenu);
        
        </script>
-       <!--Imagens do Rodapé e botão up-->
-       <a class="btn-up"href="#"> &#9651; <img id="up-up" src="up.png"></a>
-       <a href="https://github.com/VitorDev01"><img id="git-img" src="git.png"></a>
+      
        <footer>
        <h3>© 2022 VitorDev01 | GitHub Pages</h3>
        </footer>
