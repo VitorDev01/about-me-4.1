@@ -20,6 +20,7 @@
         body {
           margin-left: 2px;
           margin-right:2px;
+          padding-left: 5%;
           
         }
         header {
@@ -113,13 +114,7 @@
           width: 25px;
            
         }
-        #programador {
-          display: block;
-          margin-left: 100px;
-          width: 780px;
-          height: 610px;
-          
-        }
+      
         
        #menu a {
           width: 100%;
@@ -137,7 +132,13 @@
           border:none;
           
         }
-      
+        #programador {
+          display: block;
+          margin-left: 55px;
+          width: 780px;
+          height: 610px;
+        
+        }
        h3 { /*palavras do Rodapé*/
          font: 400 30px/1.6 "Source Sans Pro",sans-serif;
          color: black;
@@ -151,17 +152,18 @@
          margin-left: 0;
          padding-bottom: 20px;
          background-color: #fff;
-         width: 1050px;
+         width: 100%;
          height: 50px;    
       } 
     
         
 	  }  
       /*Menu para Versão Mobile*/
-      @media  (max-width: 600px) {
+      @media  (max-width: 767px) {
           body {
              margin-left: 2px;
              margin-right:8px;
+             padding-left: 1%;
           }
           #logo {
             margin-top:5px;
@@ -309,8 +311,7 @@
        /*estilo da imagem programador */
        #programador {
          display: block;
-         margin-left: 0px;
-         margin-right: 0 auto ;
+         margin-left: -10px;
          width: 400px;
          height: 309px;
         
