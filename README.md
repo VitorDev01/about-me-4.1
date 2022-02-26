@@ -378,7 +378,7 @@
                
              <li><a href="https://wa.me/5524992717594">♘ Contato</a></li>
                
-             <li><a href="https://github.com/VitorDev01?tab=repositories">♗ Projetos</a></li>
+             <li><a href="https://www.facebook.com/profile.php?id=100078322466753">♗ Facebook</a></li>
              
              <li><a href="https://vitordev01.github.io/404-page/">♖ Blog (em desenvolvimento)</a></li>
              <img id="dev2" src="dev2.png">
