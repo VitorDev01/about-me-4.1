@@ -49,7 +49,7 @@
           max-width:  700px;
           align-items: center;
           display: block;
-          margin-left: 23%;
+          margin-left: 198px;
           margin-right: 0px;
           margin-top: 7%;
           border-radius: 20px;
@@ -294,7 +294,7 @@
           max-width: 300px;
           align-items: center;
           display: block;
-          margin-left: 13%;
+          margin-left: 47px;
           margin-right: 0 auto;
           border-radius: 20px;
         }
@@ -372,15 +372,15 @@
              </button>
              
              <ul id="menu" role="menu">
-             <li><a href="https://github.com/VitorDev01">♔ Git Hub</a></li>
+             <li><a href="https://github.com/VitorDev01">Git Hub</a></li>
               
-             <li><a href="https://www.instagram.com/vitorkw89/">♛ Instagram </a></li>
+             <li><a href="https://www.instagram.com/vitorkw89/">Instagram </a></li>
                
-             <li><a href="https://wa.me/5524992717594">♘ Contato</a></li>
+             <li><a href="https://wa.me/5524992717594">Contato</a></li>
                
-             <li><a href="https://www.facebook.com/profile.php?id=100078322466753">♗ Facebook</a></li>
+             <li><a href="https://www.facebook.com/profile.php?id=100078322466753">Facebook</a></li>
              
-             <li><a href="https://vitordev01.github.io/404-page/">♖ Blog (em desenvolvimento)</a></li>
+             <li><a href="https://vitordev01.github.io/404-page/">Blog (em desenvolvimento)</a></li>
              <img id="dev2" src="dev2.png">
              </ul>
            </nav> 
