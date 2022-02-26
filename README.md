@@ -46,11 +46,6 @@
         #img-eu {
           height: 500px;
           width: 500px;
-          max-width:  700px;
-          position: center; 
-          display: block;
-          margin-left: 25%;
-          margin-top: 35px;
           border-radius: 10px;
         }
         #borda { /*Borda na imagem principal*/
@@ -289,12 +284,7 @@
         
         #img-eu {
           height: 300px;
-          width: 300%;
-          max-width: 300px;
-          display: block;
-          position: center;
-          margin-left: 50px;
-          margin-top: 0px;
+          width: 300px;
           border-radius: 10px;
         }
         #borda {
