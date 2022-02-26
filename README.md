@@ -47,12 +47,11 @@
           height: 500px;
           width: 500px;
           max-width:  700px;
-          align-items: center;
+          position: center; 
           display: block;
-          margin-left: 198px;
-          margin-right: 0px;
-          margin-top: 7%;
-          border-radius: 20px;
+          margin-left: 25%;
+          margin-top: 35px;
+          border-radius: 10px;
         }
         #borda { /*Borda na imagem principal*/
           
@@ -292,11 +291,11 @@
           height: 300px;
           width: 300%;
           max-width: 300px;
-          align-items: center;
           display: block;
-          margin-left: 47px;
-          margin-right: 0 auto;
-          border-radius: 20px;
+          position: center;
+          margin-left: 50px;
+          margin-top: 0px;
+          border-radius: 10px;
         }
         #borda {
           height: 0px;
@@ -386,8 +385,9 @@
            </nav> 
         </header>
          <br>
-         <div id="centralize">
+        
          <img id="img-eu" src="vitor.jpg">
+         <div id="centralize">
          <br>
          <div id="borda">
          </div>
