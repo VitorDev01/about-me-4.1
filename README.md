@@ -17,11 +17,16 @@
 	      
 	    /*Menu Para Desktop*/
 	    @media  (max-width: 1281px) {
-        body {
-          margin-left: 2px;
-          margin-right:2px;
-          padding-left: 5%;
+        #centralize {
+           margin-left: 6%;
+           margin-right:2%;
           
+        }
+       
+        body { 
+           margin-left: 10px;
+           margin-right:2%;
+           padding-left: 1%;
         }
         header {
           display: flex;
@@ -38,17 +43,29 @@
           font-weight: bold;
           font: 400 30px/1.6 "Source Sans Pro",sans-serif;
         }
+        #img-eu {
+          height: 500px;
+          width: 500px;
+          max-width:  700px;
+          align-items: center;
+          display: block;
+          margin-left: 23%;
+          margin-right: 0px;
+          margin-top: 7%;
+          border-radius: 20px;
+        }
         #borda { /*Borda na imagem principal*/
-          height: 611px;
-          width: 612px;
+          
+          height: 0px;
+          width: 650px;
           align-items: center;
           display: block;
           margin-left: auto;
           margin-right: auto;
-          border-width:5px;
-          border-style:solid;
-          border-color:#fff;
-          border-radius:50%;
+          border-width: 4px;
+          border-style: solid;
+          border-color: #fff;
+          border-radius: 20px;
           
         }
         body ul { /*Lista*/
@@ -81,7 +98,7 @@
        
        iframe  { /*yt videos*/
           border-radius:10px;
-          width: 960px;
+          width: 860px;
           height: 415px;
         }
         #img-dev2 {
@@ -149,10 +166,11 @@
          padding-right: 10px;
        }
       footer { /*Rodapé*/
-         margin-left: 0;
+        /*esquerda left direita right*/
+         margin-right: 100%;
          padding-bottom: 20px;
          background-color: #fff;
-         width: 100%;
+         width:108%;
          height: 50px;    
       } 
     
@@ -160,6 +178,12 @@
 	  }  
       /*Menu para Versão Mobile*/
       @media  (max-width: 767px) {
+          #centralize {
+             margin-left: 0px;
+             margin-right: 0px;
+          
+          }
+      
           body {
              margin-left: 2px;
              margin-right:8px;
@@ -266,24 +290,26 @@
         
         #img-eu {
           height: 300px;
-          width: 300px;
+          width: 300%;
+          max-width: 300px;
           align-items: center;
           display: block;
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 13%;
+          margin-right: 0 auto;
           border-radius: 20px;
         }
         #borda {
-          height: 300px;
-          width: 300px;
+          height: 0px;
+          width: 85%;
+          background-color: #fff;
           align-items: center;
           display: block;
           margin-left: auto;
           margin-right: auto;
-          border-width:4px;
+          border-width: 2px;
           border-style:solid;
           border-color:#fff;
-          border-radius:50%;
+          border-radius: 20px;
           
         }
         p {
@@ -297,8 +323,8 @@
       
         iframe { /*yt videos*/
           border-radius:10px;
-          width: 360px;
-          height: 215px;
+          width: 340px;
+          height: 210px;
         }
         
        h2 {
@@ -360,13 +386,15 @@
            </nav> 
         </header>
          <br>
+         <div id="centralize">
+         <img id="img-eu" src="vitor.jpg">
+         <br>
          <div id="borda">
-         <img id="img-eu" src="vitor.png">
          </div>
          
-         <h2>♙</h2>
+         
       
-         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><br><p><p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
+         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><p><p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
         
          <br> <!--videos do Yt-->
           <iframe src="https://www.youtube.com/embed/rsFCVjr5yxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -376,17 +404,19 @@
          <br>
            
          <h2>Desenvolvedor Front End</h2>
-         
+        
          <br>
          <img id="programador" src="dev.png">
-         
+         <br>
+          <div id="borda"></div>
          <br>
          <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. 
          <br>
         <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da World Wide Web.A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
          </p>
         <br>
-     
+        </div>
+        
        <!--comandos Javascript-->
        <script>
         const btnMobile = document.getElementById('btn-mobile');
