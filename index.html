@@ -145,7 +145,6 @@
         }
         #programador {
           display: block;
-          margin-left: 55px;
           width: 780px;
           height: 610px;
         
@@ -326,7 +325,6 @@
        /*estilo da imagem programador */
        #programador {
          display: block;
-         margin-left: -10px;
          width: 400px;
          height: 309px;
         
