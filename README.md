@@ -144,7 +144,7 @@
           
         }
         #programador {
-          display: block;
+          display: flex;
           width: 780px;
           height: 610px;
         
@@ -324,7 +324,7 @@
 
        /*estilo da imagem programador */
        #programador {
-         display: block;
+         display: flex;
          width: 400px;
          height: 309px;
         
