@@ -16,7 +16,7 @@
 	      }
 	      
 	    /*Menu Para Desktop*/
-	    @media  (max-width: 1281px) {
+    @media  (max-width: 1281px) {
         #centralize {
            margin-left: 6%;
            margin-right:2%;
@@ -28,6 +28,7 @@
            margin-right:2%;
            padding-left: 1%;
         }
+        
         header {
           display: flex;
           align-items: center;
@@ -38,30 +39,24 @@
           width: 100%;
           max-width: 980px;
         }
+        
         #logo { /*Logo Vitor Oliveira*/
-          margin-top:20px;
-          font-weight: bold;
-          font: 400 30px/1.6 "Source Sans Pro",sans-serif;
+          margin-top:30px;
+          font-size: 100px;
+          font: 400 50px/1.6 "Source Sans Pro",sans-serif;
         }
+        
         #img-eu {
-          height: 500px;
-          width: 500px;
-          border-radius: 10px;
+          height: 400px;
+          width: 400px;
+          border-radius: 50px;
+          margin-top: 50px;
         }
+        
         #borda { /*Borda na imagem principal*/
-          
-          height: 0px;
-          width: 650px;
-          align-items: center;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          border-width: 4px;
-          border-style: solid;
-          border-color: #fff;
-          border-radius: 20px;
-          
+          border: none;
         }
+   
         body ul { /*Lista*/
           margin: 0 auto;
           padding: 0 auto;
@@ -75,11 +70,13 @@
         
         a:hover { /*cor ao tocar nos links*/
           background:rgba(0, 0, 0, .09);
-          background-color: #100a1c;
-           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
-           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+          width: 20px;
         }
         
+        #img1, #img2, #img3, #img4 {
+            height: 50px;
+            width: 50px;
+        }
         
         p { /*parafrafos em geral*/
           text-align: justify;
@@ -92,17 +89,18 @@
        
        iframe  { /*yt videos*/
           border-radius:10px;
-          width: 860px;
+          width: 760px;
           height: 415px;
         }
+        
         #img-dev2 {
          display: block;
          margin-left: 0 auto;
          margin-right: 0 auto ;
          width: 450px;
          height: 100px;
-        
        }
+     
        h2 { /*titulo imagem dev*/
          
          align-items: center;
@@ -110,8 +108,7 @@
          color:#fff;
          font: 300 50px/1.6 "Source Sans Pro",sans-serif;
        }
-       /*estilo da imagem dev */
-       
+
        #menu {
           display: flex;
           height: 8px;
@@ -120,13 +117,7 @@
           list-style: none;
           gap: .7rem;/*Coloca um espaçamento e separa os itens*/
         }
-        #dev2 {
-          height: 25px;
-          width: 25px;
-           
-        }
-      
-        
+  
        #menu a {
           width: 100%;
           max-width: 980px;
@@ -142,13 +133,8 @@
           outline: none;
           border:none;
           
-        }
-        #programador {
-          display: flex;
-          width: 780px;
-          height: 610px;
-        
-        }
+       }
+       
        h3 { /*palavras do Rodapé*/
          font: 400 30px/1.6 "Source Sans Pro",sans-serif;
          color: black;
@@ -158,17 +144,18 @@
          padding-top: 10px;
          padding-right: 10px;
        }
-      footer { /*Rodapé*/
+   
+       footer { /*Rodapé*/
         /*esquerda left direita right*/
          margin-right: 100%;
          padding-bottom: 20px;
          background-color: #fff;
          width:108%;
          height: 50px;    
-      } 
+       } 
     
         
-	  }  
+  }  
       /*Menu para Versão Mobile*/
       @media  (max-width: 767px) {
           #centralize {
@@ -182,12 +169,34 @@
              margin-right:8px;
              padding-left: 1%;
           }
+    
           #logo {
             margin-top:5px;
             font-weight: bold;
             font: 300 35px/1.6 "Source Sans Pro",sans-serif;
           }
-
+      
+          #menu a { /*Links menu*/
+            
+            margin: 0 1rem;
+            margin-top: 40px;
+            color: white;
+            text-decoration: none;
+            font: 370 25px/1.6 "Source Sans Pro",sans-serif;
+          }
+          #menu li a {
+             margin-top:90px;
+          }
+            
+          a:hover { /*cor ao tocar nos links*/
+            background:rgba(0, 0, 0, .09);
+          }
+        
+          #img1, #img2, #img3, #img4 {
+            height: 50px;
+            width: 50px;
+          }
+      
           #menu {
             display: block;
             position: absolute;
@@ -201,20 +210,6 @@
             z-index: 1000;
             visibility: hidden;
             overflow-y: hidden;
-          }
-          
-          #dev2 {
-            height: 150px;
-            width: 130px ;
-            margin-top: 150px;
-            margin-left: 20px;
-          }
-          
-          #menu a {
-            padding: 1rem 0;
-            margin: 0 1rem;
-            border-bottom: 3px solid white ;
-            
           }
           
           #nav.active #menu {
@@ -281,71 +276,65 @@
              top: -8px;
           }  
         
-        #img-eu {
-          height: 300px;
-          width: 300px;
-          border-radius: 10px;
-        }
-        #borda {
-          height: 0px;
-          width: 85%;
-          background-color: #fff;
-          align-items: center;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          border-width: 2px;
-          border-style:solid;
-          border-color:#fff;
-          border-radius: 20px;
+         #img-eu {
+             height: 300px;
+             width: 300px;
+             border-radius: 50px;
+             margin-top: 10px;
+         }
+         #borda {
+             height: 0px;
+             width: 85%;
+             background-color: #fff;
+             align-items: center;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             border-width: 2px;
+             border-style:solid;
+             border-color:#fff;
+             border-radius: 20px;
           
-        }
-        p {
-          text-align: justify;
-          margin-left:  20px;
-          margin-right:  20px;
-          padding: 0 auto;
-          color:#fff;
-          font: 300 20px/1.6 "Source Sans Pro",sans-serif;
+         }
+         p {
+            text-align: justify;
+            margin-left:  20px;
+            margin-right:  20px;
+            padding: 0 auto;
+            color:#fff;
+            font: 300 20px/1.6 "Source Sans Pro",sans-serif;
+         }
+      
+         iframe { /*yt videos*/
+            border-radius:10px;
+            width: 340px;
+            height: 210px;
+         }
+        
+         h2 {
+            align-items: center;
+            text-align: center;
+            color:#fff;
+            font: 300 28px/1.6 "Source Sans Pro",sans-serif;
+         }
+
+         h3 { /*palavras do Rodapé*/
+            font: 300 19px/1.6 "Source Sans Pro",sans-serif;
+            color: black;
+            padding: 0px;
+            margin: 0px;
+            padding-left: 5px;
+            padding-top: 4px;
+            padding-right: 10px;
         }
       
-        iframe { /*yt videos*/
-          border-radius:10px;
-          width: 340px;
-          height: 210px;
-        }
-        
-       h2 {
-         align-items: center;
-         text-align: center;
-         color:#fff;
-         font: 300 28px/1.6 "Source Sans Pro",sans-serif;
-       }
-
-       /*estilo da imagem programador */
-       #programador {
-         display: flex;
-         width: 400px;
-         height: 309px;
-        
-       }
-    
-       h3 { /*palavras do Rodapé*/
-         font: 300 19px/1.6 "Source Sans Pro",sans-serif;
-         color: black;
-         padding: 0px;
-         margin: 0px;
-         padding-left: 5px;
-         padding-top: 4px;
-         padding-right: 10px;
-       }
-      footer { /*Rodapé*/
-         margin-left: 0;
-         padding-bottom: 20px;
-         background-color: #fff;
-         width: 100%;
-         height: 2%;    
-      } 
+        footer { /*Rodapé*/
+            margin-left: 0;
+            padding-bottom: 20px;
+            background-color: #fff;
+            width: 100%;
+            height: 2%;    
+        } 
      }
     </style>
   </head>
@@ -359,16 +348,14 @@
              </button>
              
              <ul id="menu" role="menu">
-             <li><a href="https://github.com/VitorDev01">Git Hub</a></li>
-              
-             <li><a href="https://www.instagram.com/vitorkw89/">Instagram </a></li>
-               
-             <li><a href="https://wa.me/5524992717594">Contato</a></li>
-               
-             <li><a href="https://www.facebook.com/profile.php?id=100078322466753">Facebook</a></li>
+             <li><a href="https://github.com/VitorDev01"><img id="img1"src="github.png"></a></li>
              
-             <li><a href="https://vitordev01.github.io/404-page/">Blog (em desenvolvimento)</a></li>
-             <img id="dev2" src="dev2.png">
+             <li><a href="mailto:victorskw89@gmail.com"><img id="img2" src="email.png"></a></li>
+                          
+             <li><a href="https://www.instagram.com/vitorkw89/"><img id="img3" src="insta.png"></a></li>
+              
+            <li><a href="https://www.facebook.com/profile.php?id=100078322466753"><img id="img4" src="Facebook.png"></a></li>  
+            
              </ul>
            </nav> 
         </header>
@@ -386,15 +373,15 @@
         
          <br> <!--videos do Yt-->
           <iframe src="https://www.youtube.com/embed/rsFCVjr5yxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br><br>
+         <div id="borda"></div>
+         <br>
          <iframe width="360" height="215" src="https://www.youtube.com/embed/lcKo-ycLDNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         
+         <div id="borda"></div>
          <br>
            
          <h2>Desenvolvedor Front End</h2>
-        
-         <br>
-         <img id="programador" src="dev.png">
+
+         <iframe width="360" height="215" src="https://www.youtube.com/embed/WzZ1CSuFpb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <br>
           <div id="borda"></div>
          <br>
