@@ -46,11 +46,18 @@
           font: 400 50px/1.6 "Source Sans Pro",sans-serif;
         }
         
-        #img-eu {
-          height: 400px;
-          width: 400px;
-          border-radius: 50px;
+        #border {
+          color: #fff;
+          background: url(v.jpg);
+          background-size: 450px 450px ;
+          background-repeat: no-repeat;
+          width: 450px;
+          height: 450px;
+          border:solid 4px;
+          margin-left: auto;
+          margin-right: auto;
           margin-top: 50px;
+          border-radius: 20px 20px 20px 20px;
         }
         
         #borda { /*Borda na imagem principal*/
@@ -73,11 +80,16 @@
           width: 20px;
         }
         
-        #img1, #img2, #img3, #img4 {
+        #img1, #img3, #img4 {
             height: 50px;
             width: 50px;
         }
         
+        #img2 {
+            height: 50px;
+            width: 55px;
+          }
+          
         p { /*parafrafos em geral*/
           text-align: justify;
           margin-left:  20px;
@@ -88,18 +100,12 @@
        }
        
        iframe  { /*yt videos*/
-          border-radius:10px;
+          visibility: visible;
           width: 760px;
           height: 415px;
+          border-radius:10px;
         }
-        
-        #img-dev2 {
-         display: block;
-         margin-left: 0 auto;
-         margin-right: 0 auto ;
-         width: 450px;
-         height: 100px;
-       }
+ 
      
        h2 { /*titulo imagem dev*/
          
@@ -192,11 +198,14 @@
             background:rgba(0, 0, 0, .09);
           }
         
-          #img1, #img2, #img3, #img4 {
+          #img1, #img3, #img4 {
             height: 50px;
             width: 50px;
           }
-      
+          #img2 {
+            height: 60px;
+            width: 60px;
+          }
           #menu {
             display: block;
             position: absolute;
@@ -274,14 +283,22 @@
           #nav.active #pao::after {
              transform: rotate(-135deg);
              top: -8px;
-          }  
-        
-         #img-eu {
-             height: 300px;
-             width: 300px;
-             border-radius: 50px;
-             margin-top: 10px;
-         }
+          } 
+          
+          #border {
+              color: #fff;
+              background: url(v.jpg);
+              background-size: 300px 300px ;
+              background-repeat: no-repeat;
+              width:300px;
+              height:300px;
+              border:solid 4px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+              border-radius: 20px 20px 20px 20px;
+          }
+
          #borda {
              height: 0px;
              width: 85%;
@@ -306,9 +323,10 @@
          }
       
          iframe { /*yt videos*/
-            border-radius:10px;
+            visibility: visible;
             width: 340px;
             height: 210px;
+            border-radius:10px;
          }
         
          h2 {
@@ -360,16 +378,17 @@
            </nav> 
         </header>
          <br>
-        
-         <img id="img-eu" src="vitor.jpg">
+         
+         <div id="border">
+         </div>
+         
          <div id="centralize">
          <br>
          <div id="borda">
          </div>
-         
-         
-      
-         <p>21 Anos, barramansanse, Desenvolvedor Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p><p><p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
+  
+         <p>Estudante de programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
+         <p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
         
          <br> <!--videos do Yt-->
           <iframe src="https://www.youtube.com/embed/rsFCVjr5yxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -385,10 +404,10 @@
          <br>
           <div id="borda"></div>
          <br>
-         <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. 
-         <br>
-        <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da World Wide Web.A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
-         </p>
+         <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. </p>
+         
+        <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da World Wide Web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
+         
         <br>
         </div>
         
