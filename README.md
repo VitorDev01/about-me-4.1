@@ -184,28 +184,29 @@
       
           #menu a { /*Links menu*/
             
-            margin: 0 1rem;
-            margin-top: 40px;
-            color: white;
+            height: 0px;
+            width: 20px;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            margin-left: 45%;
+            margin-top: 50px;
+            padding-top: 0px;
             text-decoration: none;
-            font: 370 25px/1.6 "Source Sans Pro",sans-serif;
+        
           }
+          
           #menu li a {
-             margin-top:90px;
+             margin-top: 90px;
           }
             
           a:hover { /*cor ao tocar nos links*/
-            background:rgba(0, 0, 0, .09);
+            background:rgba(0, 0, 0, 0);
           }
         
-          #img1, #img3, #img4 {
+          #img1,#img2, #img3, #img4 {
             height: 50px;
             width: 50px;
           }
-          #img2 {
-            height: 60px;
-            width: 60px;
-          }
+          
           #menu {
             display: block;
             position: absolute;
@@ -392,9 +393,11 @@
         
          <br> <!--videos do Yt-->
           <iframe src="https://www.youtube.com/embed/rsFCVjr5yxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <br>
          <div id="borda"></div>
          <br>
          <iframe width="360" height="215" src="https://www.youtube.com/embed/lcKo-ycLDNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <br>
          <div id="borda"></div>
          <br>
            
