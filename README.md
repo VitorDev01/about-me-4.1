@@ -1,4 +1,3 @@
-<html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
@@ -7,6 +6,7 @@
     <style> 
     
         body {
+          margin:0px;
           height: 100vh;
           font: 300 18px/1.6 "Source Sans Pro",sans-serif;
           text-align: center;
@@ -15,7 +15,7 @@
            radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
 	      }
 	      
-	    /*Menu Para Desktop*/
+	     /*Menu Para Desktop*/
     @media  (max-width: 1281px) {
         #centralize {
            margin-left: 6%;
@@ -24,8 +24,8 @@
         }
        
         body { 
-           margin-left: 10px;
-           margin-right:2%;
+           margin:0px -20px 0% 10px;
+           
            padding-left: 1%;
         }
         
@@ -57,7 +57,7 @@
           margin-left: auto;
           margin-right: auto;
           margin-top: 50px;
-          border-radius: 20px 20px 20px 20px;
+          border-radius: 0px 20px 0px 20px;
         }
         
         #borda { /*Borda na imagem principal*/
@@ -65,20 +65,19 @@
         }
    
         body ul { /*Lista*/
-          margin: 0 auto;
-          padding: 0 auto;
+          margin: 0 ;
+          padding: 0 ;
         }
         
         a { /*Links menu*/
           color: white;
           text-decoration: none;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
           font: 370 18px/1.6 "Source Sans Pro",sans-serif;
         }
         
-        a:hover { /*cor ao tocar nos links*/
-          background:rgba(0, 0, 0, .09);
-          width: 20px;
-        }
+        
+        /*redes sociais*/
         
         #img1, #img3, #img4 {
             height: 50px;
@@ -89,30 +88,28 @@
             height: 50px;
             width: 55px;
           }
-          
+
         p { /*parafrafos em geral*/
           text-align: justify;
           margin-left:  20px;
           margin-right:  20px;
-          padding: 0 auto;
+          padding: 0 ;
           color:#fff;
           font: 300 200%/1.6 "Source Sans Pro",sans-serif;
        }
        
        iframe  { /*yt videos*/
           visibility: visible;
-          width: 760px;
-          height: 415px;
+          width: 799px;
+          height: 455px;
           border-radius:10px;
         }
- 
      
        h2 { /*titulo imagem dev*/
-         
-         align-items: center;
-         text-align: center;
-         color:#fff;
-         font: 300 50px/1.6 "Source Sans Pro",sans-serif;
+          align-items: center;
+          text-align: center;
+          color:#fff;
+          font: 300 50px/1.6 "Source Sans Pro",sans-serif;
        }
 
        #menu {
@@ -158,7 +155,7 @@
          margin-right: 100%;
          padding-bottom: 20px;
          background-color: #fff;
-         width:108%;
+         width:100%;
          height: 50px;    
        } 
     
@@ -200,10 +197,6 @@
              margin-top: 90px;
           }
             
-          a:hover { /*cor ao tocar nos links*/
-            background:rgba(0, 0, 0, 0);
-          }
-        
           #img1,#img2, #img3, #img4 {
             height: 50px;
             width: 50px;
@@ -299,24 +292,14 @@
               margin-left: auto;
               margin-right: auto;
               margin-top: 20px;
-              border-radius: 20px 20px 20px 20px;
+              border-radius: 0px 20px 0px 20px;
           }
           
-          hr {
-             color: #fff;
-             background-color: #fff;
-             width: 350px;
-          }
-          hr {
-             color: #fff;
-             background-color: #fff;
-             width: 350px;
-          }
           p {
              text-align: justify;
              margin-left:  20px;
              margin-right:  20px;
-             padding: 0 auto;
+             padding: 0 ;
              color:#fff;
              font: 300 20px/1.6 "Source Sans Pro",sans-serif;
           }
@@ -367,7 +350,7 @@
              </button>
              
              <ul id="menu" role="menu">
-             <li><a href="https://github.com/VitorDev01"><img id="img1"src="github.png"></a></li>
+             <li><a href="https://github.com/VitorDev01"><img id="img1" src="github.png"></a></li>
              
              <li><a href="mailto:victorskw89@gmail.com"><img id="img2" src="email.png"></a></li>
                           
@@ -385,7 +368,7 @@
          
          <div id="centralize">
          <br>
-         <hr>
+         
          </div>
   
          <p>Estudante de programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
@@ -397,16 +380,14 @@
          <h2>Desenvolvedor Front End</h2>
 
          <iframe width="360" height="215" src="https://www.youtube.com/embed/WzZ1CSuFpb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br><br>
-         <hr>
-          <div id="borda"></div>
+         <br>
          
          <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. </p>
          
         <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da <mark><a href="https://vitordev01.github.io/page-about-internet/">World Wide Web.</a></mark> A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
          
         <br>
-        </div>
+        
         
        <!--comandos Javascript-->
        <script>
