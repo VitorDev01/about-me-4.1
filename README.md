@@ -53,7 +53,7 @@
           background-repeat: no-repeat;
           width: 450px;
           height: 450px;
-          border:solid 4px;
+          border:solid 3px;
           margin-left: auto;
           margin-right: auto;
           margin-top: 50px;
@@ -150,7 +150,9 @@
          padding-top: 10px;
          padding-right: 10px;
        }
-   
+       mark {
+           background-color: #9F00C5;
+        }
        footer { /*Rodapé*/
         /*esquerda left direita right*/
          margin-right: 100%;
@@ -293,49 +295,45 @@
               background-repeat: no-repeat;
               width:300px;
               height:300px;
-              border:solid 4px;
+              border:solid 3px;
               margin-left: auto;
               margin-right: auto;
               margin-top: 20px;
               border-radius: 20px 20px 20px 20px;
           }
-
-         #borda {
-             height: 0px;
-             width: 85%;
-             background-color: #fff;
-             align-items: center;
-             display: block;
-             margin-left: auto;
-             margin-right: auto;
-             border-width: 2px;
-             border-style:solid;
-             border-color:#fff;
-             border-radius: 20px;
           
-         }
-         p {
-            text-align: justify;
-            margin-left:  20px;
-            margin-right:  20px;
-            padding: 0 auto;
-            color:#fff;
-            font: 300 20px/1.6 "Source Sans Pro",sans-serif;
-         }
+          hr {
+             color: #fff;
+             background-color: #fff;
+             width: 350px;
+          }
+          hr {
+             color: #fff;
+             background-color: #fff;
+             width: 350px;
+          }
+          p {
+             text-align: justify;
+             margin-left:  20px;
+             margin-right:  20px;
+             padding: 0 auto;
+             color:#fff;
+             font: 300 20px/1.6 "Source Sans Pro",sans-serif;
+          }
       
-         iframe { /*yt videos*/
+          iframe { /*yt videos*/
             visibility: visible;
             width: 340px;
             height: 210px;
             border-radius:10px;
-         }
+          }
         
-         h2 {
+          h2 {
             align-items: center;
             text-align: center;
             color:#fff;
             font: 300 28px/1.6 "Source Sans Pro",sans-serif;
-         }
+          }
 
          h3 { /*palavras do Rodapé*/
             font: 300 19px/1.6 "Source Sans Pro",sans-serif;
@@ -345,15 +343,17 @@
             padding-left: 5px;
             padding-top: 4px;
             padding-right: 10px;
-        }
-      
-        footer { /*Rodapé*/
+         }
+         mark {
+           background-color: #9F00C5;
+         }
+         footer { /*Rodapé*/
             margin-left: 0;
             padding-bottom: 20px;
             background-color: #fff;
             width: 100%;
             height: 2%;    
-        } 
+         } 
      }
     </style>
   </head>
@@ -385,31 +385,25 @@
          
          <div id="centralize">
          <br>
-         <div id="borda">
+         <hr>
          </div>
   
          <p>Estudante de programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
          <p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
         
          <br> <!--videos do Yt-->
-          <iframe src="https://www.youtube.com/embed/rsFCVjr5yxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br>
-         <div id="borda"></div>
-         <br>
-         <iframe width="360" height="215" src="https://www.youtube.com/embed/lcKo-ycLDNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br>
-         <div id="borda"></div>
-         <br>
+        
            
          <h2>Desenvolvedor Front End</h2>
 
          <iframe width="360" height="215" src="https://www.youtube.com/embed/WzZ1CSuFpb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <br>
+         <br><br>
+         <hr>
           <div id="borda"></div>
-         <br>
+         
          <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. </p>
          
-        <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da World Wide Web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
+        <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da <mark><a href="https://vitordev01.github.io/page-about-internet/">World Wide Web.</a></mark> A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
          
         <br>
         </div>
