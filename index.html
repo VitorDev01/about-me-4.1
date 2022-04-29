@@ -384,7 +384,7 @@
          
          <p>É responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir. </p>
          
-        <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da <mark><a href="https://vitordev01.github.io/page-about-internet/">World Wide Web.</a></mark> A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
+        <p>Tendo como principal Linguagem de programação o JavaScript uma das três principais tecnologias da <mark><a href="https://pt.m.wikipedia.org/wiki/World_Wide_Web">World Wide Web.</a></mark> A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.</p>
          
         <br>
         
