@@ -6,13 +6,11 @@
     <style> 
     
         body {
-          margin:0px;
           height: 100vh;
-          font: 300 18px/1.6 "Source Sans Pro",sans-serif;
           text-align: center;
-          background: #100a1c;
-           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
-           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+           background: linear-gradient(to bottom right, #9F00C5 , #acb6e5);
+           background-size: 200% 400%;
+         
 	      }
 	      
 	     /*Menu Para Desktop*/
@@ -25,7 +23,6 @@
        
         body { 
            margin:0px -20px 0% 10px;
-           
            padding-left: 1%;
         }
         
@@ -130,9 +127,7 @@
         }
         /*escondendo o botão*/
         #btn-mobile {
-          background: #100a1c;
-           radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
-           radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+          background:  #9F00C5;
           outline: none;
           border:none;
           
@@ -152,10 +147,10 @@
         }
        footer { /*Rodapé*/
         /*esquerda left direita right*/
-         margin-right: 100%;
+         margin: 0;
          padding-bottom: 20px;
          background-color: #fff;
-         width:100%;
+         width: 100%;
          height: 50px;    
        } 
     
@@ -210,7 +205,8 @@
             right: 0px;
             margin-right: 28px;
             border-radius: 15px;
-            background: linear-gradient(to bottom right, #9F00C5 ,#9370DB);
+            background: linear-gradient(to bottom right, #9F00C5 , #acb6e5);
+            background-size: 200% 400%;
             transition: .6s;
             z-index: 1000;
             visibility: hidden;
@@ -296,6 +292,7 @@
           }
           
           p {
+             word-spacing: 1px;
              text-align: justify;
              margin-left:  20px;
              margin-right:  20px;
@@ -371,9 +368,10 @@
          
          </div>
   
-         <p>Estudante de programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas , fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
-         <p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso em video e CFB cursos.</p>
+         <p>Bonitão ai em cima sou eu :) Tenho 22 anos atualmente me dedicando aos estudos em programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas, fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
+         <p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso Em Video e CFB cursos.</p>
         
+        <p>Abaixo um pouco sobre essa profissão⬇</p>
          <br> <!--videos do Yt-->
         
            
