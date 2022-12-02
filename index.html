@@ -368,7 +368,7 @@
          
          </div>
   
-         <p>Bonitão ai em cima sou eu :) Tenho 22 anos atualmente me dedicando aos estudos em programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas, fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
+         <p>Tenho 22 anos atualmente me dedicando aos estudos em programação Front End, conhecimentos autodidata em HTML5 CSS3 e JavaScript, pretendo cursar Análise e Desenvolvimento De Sistemas, fã do raciocínio lógico  amo café e estou sempre buscando aperfeiçoar meu inglês.</p>
          <p>Tendo começado essa jornada na programação em 2019 com os professores Gustavo Guanabara e Bruno Campos dos canais Curso Em Video e CFB cursos.</p>
         
         <p>Abaixo um pouco sobre essa profissão⬇</p>
