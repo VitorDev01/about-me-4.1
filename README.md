@@ -330,10 +330,10 @@
            border-radius: 15px;
          }
          footer { /*Rodapé*/
-            margin-left: 0px;
+            margin-left: 20px;
             padding-bottom: 20px;
             background-color: #fff;
-            width: 100%;
+            width: 90%;
             height: 2%;    
          } 
      }
@@ -418,9 +418,10 @@
         btnMobile.addEventListener('touchstart' , toggleMenu);
        
        </script>
-       <br>
+       
        <footer>
        <h3>© 2023 VitorDev01 | GitHub Pages</h3>
        </footer>
+       <br>
     </body>
 </html>
