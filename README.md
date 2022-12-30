@@ -8,7 +8,7 @@
         body {
           height: 100vh;
           text-align: center;
-           background: linear-gradient(to bottom right, #9F00C5 , #acb6e5);
+           background: linear-gradient(to bottom right, #2193B0 , #6DD5ED);
            background-size: 200% 400%;
          
 	      }
@@ -127,10 +127,9 @@
         }
         /*escondendo o botão*/
         #btn-mobile {
-          background:  #9F00C5;
+          background:  #2193B0;
           outline: none;
           border:none;
-          
        }
        
        h3 { /*palavras do Rodapé*/
@@ -143,14 +142,16 @@
          padding-right: 10px;
        }
        mark {
-           background-color: #9F00C5;
+           background-color: #1488CC;
+           border-radius: 15px;
         }
        footer { /*Rodapé*/
         /*esquerda left direita right*/
          margin: 0;
          padding-bottom: 20px;
          background-color: #fff;
-         width: 100%;
+         border-radius: 15px;
+         width: 99%;
          height: 50px;    
        } 
     
@@ -205,7 +206,7 @@
             right: 0px;
             margin-right: 28px;
             border-radius: 15px;
-            background: linear-gradient(to bottom right, #9F00C5 , #acb6e5);
+            background: linear-gradient(to bottom right, #2193B0 , #6DD5ED);
             background-size: 200% 400%;
             transition: .6s;
             z-index: 1000;
@@ -325,10 +326,11 @@
             padding-right: 10px;
          }
          mark {
-           background-color: #9F00C5;
+           background-color: #1488CC;
+           border-radius: 15px;
          }
          footer { /*Rodapé*/
-            margin-left: 0;
+            margin-left: 0px;
             padding-bottom: 20px;
             background-color: #fff;
             width: 100%;
