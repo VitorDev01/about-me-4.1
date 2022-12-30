@@ -418,9 +418,9 @@
         btnMobile.addEventListener('touchstart' , toggleMenu);
        
        </script>
-      
+       <br>
        <footer>
-       <h3>© 2022 VitorDev01 | GitHub Pages</h3>
+       <h3>© 2023 VitorDev01 | GitHub Pages</h3>
        </footer>
     </body>
 </html>
