@@ -73,10 +73,9 @@
           font: 370 18px/1.6 "Source Sans Pro",sans-serif;
         }
         
-        
         /*redes sociais*/
         
-        #img1, #img3, #img4 {
+        #img1, #img3, #img4, #img5 {
             height: 50px;
             width: 50px;
         }
@@ -193,7 +192,7 @@
              margin-top: 90px;
           }
             
-          #img1,#img2, #img3, #img4 {
+          #img1,#img2, #img3, #img4, #img5{
             height: 50px;
             width: 50px;
           }
@@ -280,7 +279,7 @@
           
           #border {
               color: #fff;
-              background: url(v.jpg);
+              background: url(iam.jpg);
               background-size: 300px 300px ;
               background-repeat: no-repeat;
               width:300px;
@@ -357,6 +356,7 @@
               
             <li><a href="https://www.facebook.com/profile.php?id=100078322466753"><img id="img4" src="Facebook.png"></a></li>  
             
+            <li><a href="https://vitordev01.github.io/blog-pagina-raiz/"><img id="img5" src="blog.png"></a></li>  
              </ul>
            </nav> 
         </header>
